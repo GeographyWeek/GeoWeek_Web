@@ -336,3 +336,22 @@ footer .names{
     font-family: var(--fuente-principal);
     font-weight: 900;
 }
+
+
+/* Responsive */
+@media screen and (max-width: 428px) and (min-width: 0px) {
+    
+    .back-up-contenedor{
+        bottom: 15px;
+        right: 25px;
+    }
+
+    .nav{
+        display: none;
+    }
+    
+    .hero-title{
+        font-size: 2.2em;
+    }
+
+}
